@@ -4,119 +4,78 @@ import com.birdbrain.Finch;
 
 public class Test{
     public static void main (String[] args){
-        Finch bird = new Finch();
+        // Finch bird = new Finch();
+        TwinkleBird bird = new TwinkleBird();
 
 
  //C
- bird.playNote(60, 0.5);
- bird.pause(0.45);
- bird.playNote(60, 0.5);
- bird.pause(0.45);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.45);
- bird.playNote(67, 0.5);
- bird.pause(0.5);
- //A
- bird.playNote(69, 0.5);
- bird.pause(0.45);
- bird.playNote(69, 0.5);
- bird.pause(0.5);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.8);
- //F
- bird.playNote(65, 0.5);
- bird.pause(0.45);
- bird.playNote(65, 0.5);
- bird.pause(0.5);
- //E
- bird.playNote(64, 0.5);
- bird.pause(0.45);
- bird.playNote(64, 0.5);
- bird.pause(0.5);
- //D
- bird.playNote(62, 0.5);
- bird.pause(0.45);
- bird.playNote(62, 0.5);
- bird.pause(0.5);
- //C
- bird.playNote(60, 0.5);
- bird.pause(0.6);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.45);
- bird.playNote(67, 0.5);
- bird.pause(0.5);
- //F
- bird.playNote(65, 0.5);
- bird.pause(0.45);
- bird.playNote(65, 0.5);
- bird.pause(0.5);
- //E
- bird.playNote(64, 0.5);
- bird.pause(0.45);
- bird.playNote(64, 0.5);
- bird.pause(0.5);
- //D
- bird.playNote(62, 0.5);
- bird.pause(0.8);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.45);
- bird.playNote(67, 0.5);
- bird.pause(0.5);
- //F
- bird.playNote(65, 0.5);
- bird.pause(0.45);
- bird.playNote(65, 0.5);
- bird.pause(0.5);
- //E
- bird.playNote(64, 0.5);
- bird.pause(0.45);
- bird.playNote(64, 0.5);
- bird.pause(0.5);
- //D
- bird.playNote(62, 0.5);
- bird.pause(0.6);
- //C
- bird.playNote(60, 0.5);
- bird.pause(0.45);
- bird.playNote(60, 0.5);
- bird.pause(0.5);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.45); 
- bird.playNote(67, 0.5);
- bird.pause(0.5);
- //A
- bird.playNote(69, 0.5);
- bird.pause(0.45); 
- bird.playNote(69, 0.5);
- bird.pause(0.5);
- //G
- bird.playNote(67, 0.5);
- bird.pause(0.7); 
- //F
- bird.playNote(65, 0.5);
- bird.pause(0.45); 
- bird.playNote(65, 0.5);
- bird.pause(0.5);
- //E
- bird.playNote(64, 0.5);
- bird.pause(0.45); 
- bird.playNote(64, 0.5);
- bird.pause(0.5);
- //D
- bird.playNote(62, 0.5);
- bird.pause(0.45); 
- bird.playNote(62, 0.5);
- bird.pause(0.5);
- //C
- bird.playNote(60, 0.5);
- bird.pause(0.45); 
 
-        // //ADD CODE
+bird.playNoteAndPause(60, 0.5);
+bird.playNoteAndPause(60, 0.5);
+//G
+bird.playNoteAndPause(67, 0.5);
+bird.playNoteAndPause(67, 0.5);
+//A
+bird.playNoteAndPause(69, 0.5);
+bird.playNoteAndPause(69, 0.5);
+//G
+bird.playNoteAndPause(67, 0.7);
+//F
+bird.playNoteAndPause(65, 0.5);
+bird.playNoteAndPause(65, 0.5);
+// E
+bird.playNoteAndPause(64, 0.5);
+bird.playNoteAndPause(64, 0.5);
+//D
+bird.playNoteAndPause(62, 0.5);
+bird.playNoteAndPause(62, 0.5);
+//C
+bird.playNoteAndPause(60, 0.7);
+//G
+bird.playNoteAndPause(67, 0.5);
+bird.playNoteAndPause(67, 0.5);
+// F
+bird.playNoteAndPause(65, 0.5);
+bird.playNoteAndPause(65, 0.5);
+// E
+bird.playNoteAndPause(64, 0.5);
+bird.playNoteAndPause(64, 0.5);
+//D
+bird.playNoteAndPause(62, 0.7);
+//G
+bird.playNoteAndPause(67, 0.5);
+bird.playNoteAndPause(67, 0.5);
+//F
+bird.playNoteAndPause(65, 0.5);
+bird.playNoteAndPause(65, 0.5);
+//E
+bird.playNoteAndPause(64, 0.5);
+bird.playNoteAndPause(64, 0.5);
+//D
+bird.playNoteAndPause(62, 0.7);
+//C
+bird.playNoteAndPause(60, 0.5);
+bird.playNoteAndPause(60, 0.5);
+//G 
+bird.playNoteAndPause(67, 0.5);
+bird.playNoteAndPause(67, 0.5);
+//A
+bird.playNoteAndPause(69, 0.5);
+bird.playNoteAndPause(69, 0.5);
+//G
+bird.playNoteAndPause(67, 0.7);
+//F
+bird.playNoteAndPause(65, 0.5);
+bird.playNoteAndPause(65, 0.5);
+//E
+bird.playNoteAndPause(64, 0.5);
+bird.playNoteAndPause(64, 0.5);
+//D
+bird.playNoteAndPause(62, 0.5);
+bird.playNoteAndPause(62, 0.5);
+//C
+bird.playNoteAndPause(60, 0.7);
+
         for(int i = 0; i<4; i++){
         bird.setMove("F", 20, 100);
         bird.setBeak(80, 1, 40);
